@@ -12,6 +12,9 @@ a {
   list-style: none;
 }
 /* ======================== Main ===================== */
+.hero-section {
+  margin-bottom: 30px;
+}
 .blue {
   /* background-color: lightblue;  */
   height: 70vh;
@@ -70,5 +73,8 @@ footer {
   .header-text {
     text-align: center;
     margin: auto;
+  }
+  .hero-section {
+    margin-bottom: 20px;
   }
 }
