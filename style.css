@@ -63,7 +63,7 @@ footer {
     margin: auto;
   }
 }
-@media (max-width: 300px) {
+@media (max-width: 390px) {
   .header-title {
     font-size: 2.5rem;
   }
