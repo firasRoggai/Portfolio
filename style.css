@@ -1,0 +1,64 @@
+/* ======================== Basics ===================== */
+a {
+  text-decoration: none;
+}
+.css-badge {
+  background-color: #b667F1;
+}
+.html-badge {
+  background-color: #139487;
+}
+.skillList {
+  list-style: none;
+}
+/* ======================== Main ===================== */
+.blue {
+  /* background-color: lightblue;  */
+  height: 70vh;
+}
+
+.red {
+  /* background-color: lightcoral; */
+  min-height: 70vh;
+}
+.header-title {
+  font-size: 4rem;
+}
+.projects {
+  min-height: 90vh;
+  margin-top: 30px;
+  background-color: lightsteelblue;
+}
+.projects-header {
+  text-decoration: underline wavy darkblue;
+}
+.hero {
+  height: 70vh;
+}
+
+.skills-section {
+  width: 90vw;
+  margin: auto;
+}
+footer {
+  background: rgb(119, 150, 190);
+}
+/* =============================================== */
+@media (max-width: 720px) {
+  .header-title {
+    text-align: center;
+  }
+  .header-text {
+    text-align: center;
+    margin: auto;
+  }
+}
+@media (max-width: 576px) {
+  .header-title {
+    font-size: 3rem;
+  }
+  .header-text {
+    text-align: center;
+    margin: auto;
+  }
+}
