@@ -47,6 +47,16 @@ footer {
 @media (max-width: 720px) {
   .header-title {
     text-align: center;
+    font-size: 3rem;
+  }
+  .header-text {
+    text-align: center;
+    margin: auto;
+  }
+}
+@media (max-width: 576px) {
+  .header-title {
+    font-size: 3rem;
   }
   .header-text {
     text-align: center;
