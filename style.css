@@ -45,6 +45,13 @@ a {
 }
 footer {
   background: rgb(119, 150, 190);
+  display: grid;
+  place-items: center;
+  min-height: 7vh;
+}
+.footer-text {
+  font-size: 15px;
+  color:white;
 }
 /* =============================================== */
 @media (max-width: 720px) {
@@ -71,10 +78,11 @@ footer {
   .hero-section {
     margin-bottom: 20px;
   }
-  .footer-span {
+  .footer-text {
+    font-size: 13px;
   }
 }
-@media (max-width: 288px) {
+@media (max-width: 311px) {
   .header-title {
     font-size: 2.5rem;
   }
@@ -89,8 +97,7 @@ footer {
     height: auto;
     margin-top: none;
   }
-.footer-span {
-    font-size: 20px;
-    color: lightcoral;
+  .footer-text {
+    font-size: 11 px;
   }
 }
