@@ -63,6 +63,10 @@ footer {
     text-align: center;
     margin: auto;
   }
+  .hero {
+    height: auto;
+    margin: 13px 0px;
+  }
   .hero-section {
     margin-bottom: 20px;
   }
@@ -74,6 +78,10 @@ footer {
   .header-text {
     text-align: center;
     margin: auto;
+  }
+    .hero {
+    height: auto;
+    margin: 13px 0px;
   }
   .hero-section {
     margin-bottom: 20px;
