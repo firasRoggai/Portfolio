@@ -8,6 +8,10 @@ a {
 .html-badge {
   background-color: #139487;
 }
+.skills-card {
+  width: 23rem;
+  margin: auto;
+}
 .skillList {
   list-style: none;
 }
@@ -17,7 +21,6 @@ a {
 }
 .blue {
   /* background-color: lightblue;  */
-  height: 70vh;
 }
 
 .red {
@@ -54,10 +57,10 @@ footer {
   color:white;
 }
 /* =============================================== */
-@media (max-width: 720px) {
+@media (max-width: 460px) {
   .header-title {
     text-align: center;
-    font-size: 3rem;
+    font-size: 2.5rem;
   }
   .header-text {
     text-align: center;
@@ -70,26 +73,35 @@ footer {
   .hero-section {
     margin-bottom: 20px;
   }
+  .projects-header {
+      text-decoration: underline wavy darkblue 1.8px;
+    }
+    .skills-card {
+        width: 19rem;
+        margin: auto;
+    }
 }
-@media (max-width: 576px) {
+@media (max-width: 440px) {
   .header-title {
-    font-size: 3rem;
+    font-size: 2rem;
   }
   .header-text {
     text-align: center;
     margin: auto;
+    font-size: 1.2rem;
   }
     .hero {
     height: auto;
-    margin: 13px 0px;
+    margin: 0px 0px;
   }
   .hero-section {
-    margin-bottom: 20px;
+    margin-bottom: 0px;
   }
   .footer-text {
     font-size: 13px;
   }
 }
+/*
 @media (max-width: 385px) {
   .header-title {
     font-size: 2.5rem;
@@ -109,3 +121,4 @@ footer {
     font-size: 11px;
   }
 }
+ */
