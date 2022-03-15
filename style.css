@@ -1,10 +1,4 @@
 /* ======================== Basics ===================== */
-:root {
-  --dark : #202040;
-  --light : #543864;
-  --red : #ff6363;
-  --orange : #ffbd69;
-}
 a {
   text-decoration: none;
 }
