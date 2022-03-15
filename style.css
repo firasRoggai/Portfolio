@@ -1,9 +1,15 @@
 /* ======================== Basics ===================== */
+:root {
+  --dark : #202040;
+  --light : #543864;
+  --red : #ff6363;
+  --orange : #ffbd69;
+}
 a {
   text-decoration: none;
 }
 .css-badge {
-  background-color: #b667F1;
+  background-color: var(--dark);
 }
 .html-badge {
   background-color: #139487;
